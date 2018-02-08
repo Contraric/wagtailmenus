@@ -1,9 +1,9 @@
 from django.db import models
 
-from wagtail.wagtailadmin.edit_handlers import (
+from wagtail.admin.edit_handlers import (
     FieldPanel, MultiFieldPanel, PublishingPanel
 )
-from wagtail.wagtailcore.models import Page
+from wagtail.core.models import Page
 
 from wagtailmenus.models import MenuPage, AbstractLinkPage
 from .utils import TranslatedField

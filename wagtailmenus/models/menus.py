@@ -12,8 +12,8 @@ from django.utils.safestring import mark_safe
 from django.utils.translation import ugettext_lazy as _
 from modelcluster.models import ClusterableModel
 
-from wagtail.wagtailcore import hooks
-from wagtail.wagtailcore.models import Page
+from wagtail.core import hooks
+from wagtail.core.models import Page
 
 from .. import app_settings
 from ..forms import FlatMenuAdminForm

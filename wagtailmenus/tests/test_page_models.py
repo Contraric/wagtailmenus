@@ -1,7 +1,7 @@
 from django.test import TestCase
 from django.core.exceptions import ValidationError
 
-from wagtail.wagtailcore.models import Site
+from wagtail.core.models import Site
 from wagtailmenus.tests.models import LinkPage
 
 

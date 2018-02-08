@@ -1,7 +1,7 @@
 from django import forms
 from django.utils.translation import ugettext_lazy as _
 
-from wagtail.wagtailadmin.forms import WagtailAdminModelForm, WagtailAdminPageForm
+from wagtail.admin.forms import WagtailAdminModelForm, WagtailAdminPageForm
 
 from . import app_settings
 

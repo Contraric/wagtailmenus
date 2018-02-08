@@ -1,5 +1,5 @@
 from django.test import TestCase, override_settings
-from wagtail.wagtailcore.models import Site
+from wagtail.core.models import Site
 from wagtailmenus.errors import SubMenuUsageError
 from wagtailmenus.models import MainMenu, FlatMenu
 from wagtailmenus.templatetags.menu_tags import validate_supplied_values

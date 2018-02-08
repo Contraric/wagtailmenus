@@ -13,17 +13,17 @@ LANGUAGE_CODE = 'en'
 
 INSTALLED_APPS = (
     'wagtail.contrib.settings',
-    'wagtail.wagtailforms',
-    'wagtail.wagtailsearch',
-    'wagtail.wagtailembeds',
-    'wagtail.wagtailimages',
-    'wagtail.wagtailsites',
-    'wagtail.wagtailusers',
-    'wagtail.wagtailsnippets',
-    'wagtail.wagtaildocs',
-    'wagtail.wagtailredirects',
-    'wagtail.wagtailadmin',
-    'wagtail.wagtailcore',
+    'wagtail.contrib.forms',
+    'wagtail.search',
+    'wagtail.embeds',
+    'wagtail.images',
+    'wagtail.sites',
+    'wagtail.users',
+    'wagtail.snippets',
+    'wagtail.documents',
+    'wagtail.contrib.redirects',
+    'wagtail.admin',
+    'wagtail.core',
     'wagtail.contrib.modeladmin',
     'wagtailmenus',
 
@@ -89,8 +89,8 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'wagtail.wagtailcore.middleware.SiteMiddleware',
-    'wagtail.wagtailredirects.middleware.RedirectMiddleware',
+    'wagtail.core.middleware.SiteMiddleware',
+    'wagtail.contrib.redirects.middleware.RedirectMiddleware',
 )
 
 STATICFILES_FINDERS = (

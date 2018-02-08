@@ -3,7 +3,7 @@ from __future__ import absolute_import, unicode_literals
 from django.test import TestCase
 from django.core.exceptions import ValidationError
 
-from wagtail.wagtailcore.models import Page
+from wagtail.core.models import Page
 from wagtailmenus.models import (
     ChildrenMenu, MainMenu, MainMenuItem, FlatMenu, FlatMenuItem)
 

@@ -4,8 +4,8 @@ from django.utils.translation import ugettext_lazy as _
 
 from modelcluster.fields import ParentalKey
 
-from wagtail.wagtailadmin.edit_handlers import FieldPanel, PageChooserPanel
-from wagtail.wagtailcore.models import Orderable
+from wagtail.admin.edit_handlers import FieldPanel, PageChooserPanel
+from wagtail.core.models import Orderable
 
 from .. import app_settings
 from ..managers import MenuItemManager

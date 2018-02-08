@@ -6,7 +6,7 @@ from django.contrib.auth import get_user_model
 from django.core.exceptions import ImproperlyConfigured
 from django.test import TestCase, override_settings
 
-from wagtail.wagtailcore.models import Site
+from wagtail.core.models import Site
 from wagtailmenus import get_main_menu_model, get_flat_menu_model
 from wagtailmenus.models import MainMenu, FlatMenu
 from wagtailmenus.tests.models import (

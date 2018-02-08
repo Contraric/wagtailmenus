@@ -4,8 +4,8 @@ from django.contrib.contenttypes.models import ContentType
 from django.test import TransactionTestCase, override_settings, modify_settings
 from django_webtest import WebTest
 
-from wagtail.wagtailadmin.edit_handlers import ObjectList, InlinePanel
-from wagtail.wagtailcore.models import Page, Site
+from wagtail.admin.edit_handlers import ObjectList, InlinePanel
+from wagtail.core.models import Page, Site
 from wagtailmenus import get_flat_menu_model, get_main_menu_model
 from wagtailmenus.panels import (
     FlatMenuItemsInlinePanel, MainMenuItemsInlinePanel)

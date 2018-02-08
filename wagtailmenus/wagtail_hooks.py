@@ -5,7 +5,7 @@ from django.utils.translation import ugettext_lazy as _
 
 from wagtail.contrib.modeladmin.options import ModelAdmin, modeladmin_register
 from wagtail.contrib.modeladmin.helpers import ButtonHelper
-from wagtail.wagtailcore import hooks
+from wagtail.core import hooks
 
 from . import app_settings, get_main_menu_model, get_flat_menu_model
 from .views import (MainMenuIndexView, MainMenuEditView, FlatMenuCreateView,

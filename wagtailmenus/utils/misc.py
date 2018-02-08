@@ -1,4 +1,4 @@
-from wagtail.wagtailcore.models import Page, Site
+from wagtail.core.models import Page, Site
 from ..models.menuitems import MenuItem
 
 

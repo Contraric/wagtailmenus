@@ -6,7 +6,7 @@ from django.http import HttpResponse
 from django.shortcuts import redirect
 from django.utils.translation import ugettext_lazy as _
 
-from wagtail.wagtailcore.models import Page
+from wagtail.core.models import Page
 
 from .. import app_settings
 from ..forms import LinkPageAdminForm
